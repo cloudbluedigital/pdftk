@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9dd812a-f60c-4fb8-97e7-15cece4a7e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FpdfServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FpdfServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fpdf/Fpdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fpdf/Fpdf.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +18,9 @@
     <session id="1212200513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,12 +48,12 @@
         <counts>
           <entry key="LICENSE" value="24" />
           <entry key="json" value="276" />
-          <entry key="php" value="55" />
+          <entry key="php" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="55" />
+          <entry key="PHP" value="68" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="composer.json" value="276" />
         </counts>
@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FpdfServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
@@ -98,11 +98,14 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Fpdf/Fpdf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28576">
-              <caret line="1792" selection-start-line="1792" selection-end-line="1792" />
+            <state relative-caret-position="144">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#10#606#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/Facades/Fpdf.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -124,11 +127,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Fpdf/Fpdf.php" />
         <option value="$PROJECT_DIR$/src/Facades/Fpdf.php" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/FpdfServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/Fpdf/Fpdf.php" />
       </list>
     </option>
   </component>
@@ -153,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,18 +231,19 @@
       <workItem from="1536068355844" duration="61000" />
       <workItem from="1536068435723" duration="911000" />
       <workItem from="1536070043082" duration="213000" />
-      <workItem from="1536070455120" duration="69000" />
+      <workItem from="1536070455120" duration="157000" />
+      <workItem from="1536070706745" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1254000" />
+    <option name="totallyTimeSpent" value="1363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,22 +310,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fpdf/Fpdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28576">
-          <caret line="1792" selection-start-line="1792" selection-end-line="1792" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/fpdf.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Facades/Fpdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FpdfServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -329,6 +319,23 @@
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
             <element signature="e#32#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facades/Fpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fpdf/Fpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#10#606#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

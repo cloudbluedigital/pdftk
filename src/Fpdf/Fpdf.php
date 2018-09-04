@@ -7,6 +7,8 @@
      * Author:  Olivier PLATHEY                                                     *
      *******************************************************************************/
 
+    namespace Lavatech\Fpdf;
+
     define('FPDF_VERSION', '1.81');
 
     class FPDF
