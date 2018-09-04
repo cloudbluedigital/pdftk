@@ -1,6 +1,7 @@
 <?php namespace Lavatech\Fpdf;
 
 use Illuminate\Support\ServiceProvider;
+use Lavatech\Fpdf\Fpdf;
 
 class FpdfServiceProvider extends ServiceProvider
 {
@@ -45,7 +46,7 @@ class FpdfServiceProvider extends ServiceProvider
     {
         $this->app->singleton('fpdf', function()
         {
-            return new \Fpdf(
+            return new Fpdf(
                 config('fpdf.orientation'), config('fpdf.unit'), config('fpdf.size')
             );
         });
