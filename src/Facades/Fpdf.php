@@ -1,6 +1,6 @@
 <?php
 
-namespace Codedge\Fpdf\Facades;
+namespace Lavatech\Fpdf\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

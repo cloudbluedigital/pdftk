@@ -1,6 +1,6 @@
 {
-  "name": "codedge/laravel-fpdf",
-  "description" : "Laravel 5 package for use with Fpdf. It ships with Fpdf 1.81.",
+  "name": "cloudbluedigital/pdftk",
+  "description" : "Laravel 5 PDFTK Integration with custom functions",
   "license": "MIT",
   "keywords": [
     "fpdf",
@@ -8,13 +8,13 @@
     "pdf"
   ],
   "support": {
-    "issues": "https://github.com/codedge/laravel-fpdf/issues",
-    "source": "https://github.com/codedge/laravel-fpdf"
+    "issues": "https://github.com/cloudbluedigital/pdftk/issues",
+    "source": "https://github.com/cloudbluedigital/pdftk/"
   },
   "authors": [
     {
-      "name": "Holger Lösken",
-      "email": "holger.loesken@codedge.de"
+      "name": "Lavatech LTD",
+      "email": "arthur@lavatech.ltd.uk"
     }
   ],
   "require": {
@@ -23,7 +23,17 @@
   },
   "autoload": {
     "psr-4": {
-      "Codedge\\Fpdf\\": "src/"
+      "Lavatech\\Fpdf\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lavatech\\Fpdf\\FpdfServiceProvider"
+      ],
+      "aliases": {
+        "Fpdf": "Lavatech\\Fpdf\\Facades\\Fpdf"
+      }
     }
   }
 }
