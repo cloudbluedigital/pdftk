@@ -29,10 +29,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Lavatech\\Fpdf\\FpdfServiceProvider"
+        "Lavatech\\FpdfServiceProvider"
       ],
       "aliases": {
-        "Fpdf": "Lavatech\\Fpdf\\Facades\\Fpdf"
+        "Fpdf": "Lavatech\\Facades\\Fpdf"
       }
     }
   }
